@@ -17,6 +17,3 @@ RUN python DevOpsOne/setup_2.py
 RUN . .bashrc && . .bash_profile
 
 RUN python DevOpsOne/setup_3.py
-
-# Set default container command
-ENTRYPOINT usr/bin/railsone
