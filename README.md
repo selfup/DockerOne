@@ -4,4 +4,4 @@ Go into this repo and run
 
 ```sudo docker build -t "railsone:dockerfile" .```
 
-Still working out some kinks!
+This will build a conatiner with: rbenv/Ruby/Rails/NodeJS/Postgres
