@@ -16,7 +16,7 @@ Copy it and replace ```container_to_be``` with the copied SHA
 
 ```sudo docker stop conatiner_to_be /bin/bash```
 
-Wait a few seocnds and watch it shutdown.
+Wait a few seconds and watch it shutdown.
 
 Now you can:
 
