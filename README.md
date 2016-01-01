@@ -6,7 +6,7 @@ Go into this repo and run
 
 This will build a conatiner with: rbenv/Ruby/Rails/NodeJS/Postgres
 
-This container will run once built, so if you want to kill it run (in a new terminal or pane):
+This container will stay running once built, so if you want to kill it run (in a new terminal or pane):
 
 ```sudo docker pa -a```
 
