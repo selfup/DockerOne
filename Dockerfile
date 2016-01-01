@@ -29,3 +29,5 @@ RUN exec $SHELL
 RUN cd root/ ruby -v
 
 RUN bash -l -c 'cd root/ && python DevOpsOne/install_rest.py'
+
+RUN tail -f /dev/null
