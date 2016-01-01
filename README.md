@@ -2,11 +2,11 @@
 
 Go into this repo and run
 
-```sudo docker build -t "railsone:dockerfile" .```
+```sudo docker build -t railsone .```
 
 This will build a conatiner with: rbenv/Ruby/Rails/NodeJS/Postgres
 
-This container will run once built so if you want to kill it run (in a new terminal or pane)
+This container will run once built, so if you want to kill it run (in a new terminal or pane):
 
 ```sudo docker pa -a```
 
@@ -20,9 +20,9 @@ Wait a few seocnds and watch it shutdown.
 
 Now you can:
 
-```sudo docker exec -it conatiner_to_be /bin/bash```
+```sudo docker exec -it container_to_be /bin/bash```
 
-Play around for a bit and then kill it with the ```sudo docker stop ...``` command listed above.
+Play around for a bit and then kill it with the ```sudo docker stop conatiner_to_be /bin/bash``` command.
 
 Enjoy!
 
